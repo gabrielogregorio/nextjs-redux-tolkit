@@ -1,0 +1,35 @@
+:root {
+  --primary: #2e2e2e;
+  --primary-hover: #242424;
+  --secondary: #eec540;
+}
+
+.theme-green {
+  --primary: #00c188;
+  --primary-hover: #00ac78;
+  --secondary: #012835;
+}
+
+.theme-salmon {
+  --primary: #ff8088;
+  --primary-hover: #f0777f;
+  --secondary: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+body > div {
+  min-height: 100vh;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
